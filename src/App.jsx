@@ -1,8 +1,8 @@
 // App.jsx
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
-import ItemListContainer from "./containers/ItemListContainer/ItemListContainer";
-import CheckoutForm from "./components/CheckoutForm/CheckoutForm";
+import ItemListContainer from "../containers/ItemListContainer/ItemListContainer";
+import CheckoutForm from "../components/CheckoutForm/CheckoutForm";
 import { CartProvider } from "./context/CartContext";
 
 function App() {

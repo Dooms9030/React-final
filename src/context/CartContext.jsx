@@ -1,12 +1,12 @@
 // context/CartContext.jsx
 import { createContext, useState, useContext } from "react";
 
-// Crea el Context
+
 const CartContext = createContext();
 
 export const useCart = () => useContext(CartContext);
 
-// Provider para envolver la aplicación
+
 export const CartProvider = ({ children }) => {
   const [cart, setCart] = useState([]);
 
